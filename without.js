@@ -34,7 +34,7 @@ const without = function (source, itemsToRemove) {
       } 
       if(!found) {
         newArr.push(source[i]); 
-      }
+      }w
     }
     return newArr;
 };

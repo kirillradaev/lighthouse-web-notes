@@ -13,7 +13,6 @@ Implement the function findKey which takes in an object and a callback. It shoul
 
 const findKey = function(array, callback) {
   for (const item in array) {
-      debugger;
       if (callback(array[item])) {
         return item;
       }

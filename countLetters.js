@@ -6,15 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-let allLetters = '';
-let letters = allLetters.split('');
-
-
 const countLetters = function(allLetters) {
-
   const letters = allLetters.split(' ').join('').toLowerCase();
   const results = {};
-  
   for (const item of letters) {
       if (results[item]) {
         results[item] += 1;

@@ -5,8 +5,8 @@ const assertEqual = function(actual, expected) {
    console.log(`😞Assertion Failed:${actual} !== ${expected}`);
   }
 };
-assertEqual('Lighhouse Labs', 'Bootcamp');
-assertEqual(1, 1);
+// assertEqual('Lighhouse Labs', 'Bootcamp');
+// assertEqual(1, 1);
 
 const eqArrays = function (arr1, arr2) {
   if (arr1.length !== arr2.length) {
@@ -22,5 +22,13 @@ const eqArrays = function (arr1, arr2) {
 };
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays([1, 2, 3], [1, 3]), false);
 
 
+const assertArraysEqual = function(arr1,arr2){
+  if(eqArrays(arr1,arr2)){
+    //print something here
+  }else{
+    //print they are equal 
+  }
+}
