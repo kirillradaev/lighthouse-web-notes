@@ -34,14 +34,12 @@ const without = function (source, itemsToRemove) {
       } 
       if(!found) {
         newArr.push(source[i]); 
-      }w
+      }
     }
     return newArr;
 };
 
-
-
-
-
 assertArraysEqual(without([1, 2, 3], [1]), [2,3]); // => [2, 3]
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ['1', '2']); // => ["1", "2"]
+
+module.exports = without;
