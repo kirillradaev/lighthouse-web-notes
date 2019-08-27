@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@kradaev/lotide",
   "version": "1.0.0",
-  "description": "## Summary",
+  "description": "functions in of the Lotide project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/kirillradaev/lighthouse-web-notes.git"
   },
-  "author": "",
+  "author": "kirillradaev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kirillradaev/lighthouse-web-notes/issues"
